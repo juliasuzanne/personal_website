@@ -1,0 +1,46 @@
+.portrait-container{
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  justify-content: center;
+  text-align: center;
+}
+
+#face {
+  display: flex;
+  justify-content: center;
+}
+
+#pupils {
+  position: absolute;
+  left: var(--left);
+  top: var(--top);
+}
+
+button{
+  background-color: transparent;
+  border-width: 0;
+  background-size: 100%;
+  position: absolute;
+}
+
+#thread{
+  top: 10%;
+  z-index: 10;
+  left: 10%;
+}
+
+#egg{
+  top: 10%;
+  z-index: 10;
+  left: 70%;
+}
+
+button:hover{
+  background: radial-gradient(closest-side, black, lightgrey, transparent);
+}
+
+h1 {
+text-align: center;
+
+}

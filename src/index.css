@@ -1,0 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#pupils {
+  position: absolute;
+  left: var(--left);
+  top: var(--top);
+}
